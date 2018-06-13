@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 56px;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 48px;
+}
+
+/* Header */
+header {
+  background-image: url(../assets/images/banner.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+/* Navegador */
+nav {
+  height: 56px;
+  background-color: #1C62A8;
+  color: white;
+  z-index: 999;
+  position: fixed;
+}
+
+/* Menu */
+.burger-menu {
+  float: right;
+}
+
+.menu {
+  float: rigth;
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+  height: 56px;
+  padding: 20px 10px;
+}
+
+.menu a {
+  color: #CCC;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #fff;
+}
+
+.burger {
+  float: right;
+  margin-top: 15px;
+}
+
+/* Letra de el logo */
+.title-logo {
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-left: 15px;
+  float: left;
+  list-style:none;
+}
+
+/* Tarjeta de generos */
+#Card {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Boton */
+#button {
+  border-top: 1px solid black;
+}
+
+.button {
+  background-color: #1FB3E0;
+  padding: 8px;
+  border-radius: 10%;
+}
+
+/* Footer */
+footer {
+  height: 56px;
+  background-color: #1C62A8;
+  text-align: center;
+  color: white;
+  padding: 3em;
+}
+
+.logo {
+  padding: 10em;
+}
+
+/* Imagenes */
+section img {
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
